@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-control{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-control a{
+    margin:10px;
+    padding:20px 10px;
+    background: rgb(53, 118, 179);
+    color:rgb(54, 46, 46)
+}
+
+#products {
+    width: 100%;
+    background-color: #f1f1c1;
+  }
+
+  #products tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #products tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  #products th {
+    color: white;
+    background-color: black;
+  }
+
+  #products td{
+      text-align: center;
+      height:50px;
+  }
+  #products td button{
+    background:#E3E3E3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    margin:10px;
+    padding:10px;
+}
+
+.container{
+    width:80%;
+}
+select{
+    height: 40px;
+    
+    
+    margin: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.form-control input[type="button"]{
+padding:10px 15px;
+background: rgb(61, 30, 238);
+color:black;
+outline: none;
+border-radius: 10px 10px;
+}

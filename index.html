@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+    <div class="container">
+        <select id="cities" name="cities">
+            <option value="all">All</option>
+        </select>
+        <select id="categories" name="categories">
+            <option value="all">All</option>
+        </select>
+        <select id="pass" name="pass">
+            <option value="all">All</option>
+            <option value="pass">Passed</option>
+            <option value="fail">Failed</option>
+        </select>
+        <select id="highest" name="Highest">
+            <option value="all">All</option>
+            <option value="highest">Highest</option>
+            <option value="lowest">Lowest</option>
+        </select>
+        <select id="range" name="range">
+            <option value="all">All</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            
+        </select>
+    </div>
+    <div class="form-control">
+        <input type="button" value="Print"></input>
+    </div>
+   
+</form>
+
+<div class="container-fluid">
+    
+<table style="width:100%" id="products">
+    <tr>
+      <th>student ID</th>
+      <th>Student Name</th>
+      <th>Student Age</th>
+      <th>Student category</th>
+      <th>Student City</th>
+      <th> Marks </th>
+      <th> Marks Average</th>
+      <th> Pass Status</th>
+
+    </tr>
+   
+    </table>
+
+</div>
+</body>
+<script src="script.js"></script>
+<script>
+    filterStudent();
+</script>
+</html>
